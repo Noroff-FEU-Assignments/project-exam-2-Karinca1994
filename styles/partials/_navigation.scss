@@ -1,0 +1,21 @@
+nav {
+  font-family: $font-button;
+  font-weight: 400;
+  nav a {
+    padding: 0.2rem 0;
+    letter-spacing: 0.05em;
+    color: getColour(graydark);
+    &:hover {
+      color: darken(getColour(graydark), 100%);
+    }
+  }
+  .active {
+    color: getColour(primary);
+    font-weight: 600;
+    transition: all 0.2s;
+    padding: 1rem;
+    &:hover {
+      color: darken(getColour(primary), 10%);
+    }
+  }
+}

@@ -1,0 +1,33 @@
+// font-family: 'Lora', serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Oxygen', sans-serif;
+// font-family: 'Quicksand', sans-serif;
+// font-family: 'Zilla Slab', serif;
+
+$font-text: "Quicksand", sans-serif;
+$font-second-text: "Oxygen", sans-serif;
+$font-header: "Zilla Slab", serif;
+$font-second-header: "Lora", serif;
+$font-button: "Montserrat", sans-serif;
+$font-second-button: "Open Sans", sans-serif;
+
+h1 {
+  font-family: $font-header;
+}
+h2 {
+  font-family: $font-second-header;
+  font-weight: 500;
+}
+.secondary-h2{
+  font-size: 1.5rem;
+}
+p {
+  font-family: $font-text;
+}
+.button {
+  font-family: $font-button;
+}
+.button-second {
+  font-family: $font-second-button;
+}

@@ -1,0 +1,13 @@
+.error {
+  color: getColour(errorColour);
+  padding: 0.5rem;
+}
+
+.success {
+  color: getColour(succsessColour);
+  padding: 0.5rem;
+}
+.image-card {
+  max-width: 10rem !important;
+  max-height: auto !important;
+}

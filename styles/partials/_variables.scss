@@ -1,0 +1,11 @@
+$colours: (
+  primary: #2676ee,
+  secondary: #ee9e26,
+  graydark: rgb(72, 71, 71),
+  errorColour: #ff0033,
+  succsessColour: #4bb543,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
